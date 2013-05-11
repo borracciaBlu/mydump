@@ -1,4 +1,9 @@
 mydump
 ======
 
-small script to dump some dbs in local
+Small script to dump some dbs in local.
+
+Possible uses:
+- crontab 
+- bash
+
