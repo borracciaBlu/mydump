@@ -1,3 +1,4 @@
+#!/usr/bin/php
 <?php
 /**
  * Script to backup a db in local using mysqldump in a unix system
