@@ -16,6 +16,8 @@ echo "Start dump: \n";
 foreach ($settings as $backup_details) {
     $db   = $backup_details['db'];
     $date = date(DATE_ISO8601); 
+    $date = str_replace(':', '_', $date);
+    $date = str_replace('+', '_', $date);
     
     $cmd  = "mysqldump -u{$dbuser} -p{$dbpass} $db > {$backup_dir}{$date}_{$db}.sql";
     $result = exec($cmd);
