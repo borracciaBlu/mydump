@@ -24,7 +24,7 @@ Automate part of the process on making backups.
 
 ## How to:
     
-    cd /var/www
+    ca /var/www
     git clone https://github.com/borracciaBlu/mydump.git
     vim mydump/mydump.php
 
